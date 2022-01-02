@@ -19,7 +19,7 @@ def list_product(input_list: List[int]) -> int:
     2nd and 3rd largest.
     '''
     # sort ascending so that first element is smallest,
-    # -1 element is largets
+    # -1 element is largest
     input_list.sort()
     small_product = 0
 
